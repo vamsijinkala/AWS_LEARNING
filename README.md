@@ -34,7 +34,7 @@
                         "Action": [
                                 "s3:GetObject"
                         ],
-                        "Resource": "arn:aws:s3:::tracrat-1/vamsi-prod/*"
+                        "Resource": "arn:aws:s3:::<bucket-name>/<object-name>/*"
                 }
         ]
 }
